@@ -6,12 +6,12 @@ plugins {
 android {
     namespace 'com.undcover.freedom.pyramid'
 
-    compileSdk 35
+    compileSdk 34
     flavorDimensions = ["abi"]
 
     defaultConfig {
-        minSdk 21
-        targetSdk 28
+        minSdk 28
+        targetSdk 33
         python {
             version "3.8"
             pip {
